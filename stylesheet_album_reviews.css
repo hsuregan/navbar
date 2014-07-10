@@ -1,0 +1,21 @@
+@import url(index.html)
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+.icon p {
+	display: none;
+}
+
+#center
+{
+	width: 100%;
+	text-align: center;
+	position: fixed !important;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	margin-top: -8px !important ;
+
+}

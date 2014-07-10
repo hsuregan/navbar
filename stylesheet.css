@@ -1,0 +1,272 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Megrim);
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(http://fonts.googleapis.com/css?family=Orienta|Permanent+Marker|Amatic+SC:400,700);
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Quicksand|Molle:400italic|Wire+One|Cagliostro|Finger+Paint|Old+Standard+TT|Arapey|Text+Me+One|Marko+One);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300);
+
+
+	
+//create 
+
+
+
+/*html { 
+	this code ensures that there are no background issues associated with positioning
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}*/
+
+//the stickey-anchor
+.shows
+{
+	background-color: blue;
+	color: white;
+	visibility: hidden;
+}
+
+#blank {
+height: 600px;
+left: 0;
+right: 0;
+width: 100%;
+border: thick white;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+#sticky {
+	width: 100%;
+	color: white;
+	background-color: transparent;
+	//height: 70px;
+	line-height: 60px;
+	padding-top: 0;
+	padding-bottom: 0;
+	right: 0;
+	left: 0;
+	//text-align: center;
+	//float: center;
+	position: absolute;
+	font-family: 'Permanent Marker';
+	font-size: 50px;
+	color: white;
+	top: 619px;
+}
+#sticky.stick {
+	//border-color: black;
+	//border: thick;
+	color: black;
+	width: 100%;
+	left: 0;
+	right: 0;
+	text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+}
+
+
+
+
+#center
+{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	margin-top: -5px !important ;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+
+}
+
+
+
+#navcontainer
+{
+
+margin: 0 auto;
+width: 700px;
+background-color: transparent;
+border: thick;
+border-color: black;
+transition: background-color .7s ease, visibility .7s ease, display .7s ease;
+z-index: -1;
+}
+
+
+#navcontainer ul
+{
+margin: 0 auto;
+padding: 0;
+list-style-type: none;
+transition: background-color .7s ease, visibility .7s ease, display .7s ease;
+z-index: -1;
+
+}
+
+#navcontainer ul li ul
+{
+	z-index: 1000 !important;
+	display: none;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size:20px;
+	z-index: -1;
+
+}
+
+#navcontainer ul li:hover ul
+{
+	text-align: left;
+	margin-top: 80px;
+	padding: 20px;
+	display: block;
+	line-height: 30px !important;
+	background-color: rgba(248,244,244,0.8);
+	width: 660px;
+	height: 1000px;
+	color: black;
+	position: fixed;
+	transition: background-color .7s ease, visibility .7s ease, display .7s ease;
+	z-index: -1;
+
+}
+
+#navcontainer ul li ul:hover
+{
+	z-index: -1;
+    background-color:rgba(0,0,0,0.8);
+	color: white;
+	padding: 20px;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+	transition: background-color .7s ease, visibility .7s ease, display .7s ease;
+
+
+}
+
+
+
+img{
+	transition: -webkit-filter 1s ease, background-color 1s ease;
+}
+
+
+.icon {
+	margin-top: 0;
+	padding-top: 10px !important;
+z-index: -1;
+	line-height: 10px;
+	background-color: rgba(248,244,244,0.8);
+	transition: background-color 0.5s ease, color .9s ease, height .5s ease;
+	//display: inline;
+	height: 70px;
+	width: 100px;
+	float: left;
+	font-size: 30px;
+	color: black;
+	font-family: 'Amatic SC';
+	//padding: 20px;
+	//border: 5px black;
+//rgba(248,244,244,0.64);
+	//margin-top: -200px;
+	margin: 0px;
+	text-align: center;
+	visibility: visible;
+	padding: 0px;
+
+
+}
+
+.active {
+    background-color:rgba(0,0,0,0.8);
+	color: white;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+z-index: -1;
+
+}
+
+
+
+
+img
+{
+	transition: margin-top 0.7s ease;
+	position: relative;
+}
+
+.activehugeCircle
+{
+	margin-top: 45px;
+}
+
+.imgoff
+{
+	margin-top: 10px;
+}
+
+	
+/* CSS Document */
+
+
+.invert {
+ -webkit-filter: invert(100%);  
+}
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+.container_title
+{
+	
+	background-color: black;
+	height: 70px;
+	line-height: 60px;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 100%;
+	right: 0;
+	left: 0;
+	text-align: center;
+	margin-top: 580px;
+	float: center;
+	position: absolute;
+	font-family: 'Permanent Marker';
+	font-size: 50px;
+	color: white ;
+	z-index: -2 !important;
+
+
+}
+
+.album_review
+{
+	line-height: normal;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: black;
+	margin-top: 650px;
+	//text-align: center;
+	color: white;
+	font-family: 'arial';
+	padding: 10%;
+	padding-top: 0px !important;
+	//font-family: 'Text Me One', sans-serif;
+	//font-family: 'Quicksand', sans-serif;
+	font-family: 'Old Standard TT', serif;
+	z-index: -2 !important;
+	text-align:justify;
+}
