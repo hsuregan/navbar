@@ -7,21 +7,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300);
 
 
-	
-//create 
-
-
-
-/*html { 
-	this code ensures that there are no background issues associated with positioning
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment: fixed;
-}*/
-
 //the stickey-anchor
 .shows
 {
@@ -30,8 +15,26 @@
 	visibility: hidden;
 }
 
+#blue
+{
+	
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	height: 400px;
+	left: 0;
+	right: 0;
+	top: 0;
+ background: -webkit-linear-gradient(#60B0FB, #FCF000); /* For Safari 5.1 to 6.0 */ //#1800C3
+    background: -o-linear-gradient(#60B0FB, #FCF000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#60B0FB,#FCF000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#60B0FB,#FCF000); /* Standard syntax (must be last) */
+	display: inline-block;
+		vertical-align: baseline;
+	}
+
 #blank {
-height: 600px;
+height: 400px;
 left: 0;
 right: 0;
 width: 100%;
@@ -57,7 +60,7 @@ text-align: center;
 	font-family: 'Permanent Marker';
 	font-size: 50px;
 	color: white;
-	top: 619px;
+	top: 405px; //adjust this to the height of the div on top of the container -- specifically '#blank' + 13 px
 }
 #sticky.stick {
 	//border-color: black;
@@ -93,12 +96,11 @@ text-align: center;
 {
 
 margin: 0 auto;
-width: 700px;
+width: 330px;
 background-color: transparent;
 border: thick;
 border-color: black;
 transition: background-color .7s ease, visibility .7s ease, display .7s ease;
-z-index: -1;
 }
 
 
@@ -131,7 +133,7 @@ z-index: -1;
 	display: block;
 	line-height: 30px !important;
 	background-color: rgba(248,244,244,0.8);
-	width: 660px;
+	width: 290px;
 	height: 1000px;
 	color: black;
 	position: fixed;
@@ -169,14 +171,14 @@ z-index: -1;
 	background-color: rgba(248,244,244,0.8);
 	transition: background-color 0.5s ease, color .9s ease, height .5s ease;
 	//display: inline;
-	height: 70px;
-	width: 100px;
+	width: 110px !important;
 	float: left;
-	font-size: 30px;
 	color: black;
-	font-family: 'Amatic SC';
-	//padding: 20px;
-	//border: 5px black;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size:23px;
+	//padding: 30px;
+	border: 5px black !important;
 //rgba(248,244,244,0.64);
 	//margin-top: -200px;
 	margin: 0px;

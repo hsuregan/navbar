@@ -89,7 +89,7 @@ function sticky_relocate() {
 		$('.icon').find('p').css('visibility', 'hidden');
         $('#sticky').addClass('stick');
     } else {
-		$('.icon').css('height', '120px');
+		$('.icon').css('height', '110px');
 		$('.icon').find('p').css('visibility', 'visible');
 		$('#navcontainer ul li ul').css('visibility', 'hidden');
         $('#sticky').removeClass('stick');
